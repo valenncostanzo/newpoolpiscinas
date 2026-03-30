@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Pool® | Diseño y Construcción de Piscinas de Excelencia</title>
+    
+    <link rel="icon" type="image/png" href="imagenes/logo.png">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="header">
+        <div class="container nav-container">
+            <div class="logo-container">
+                <img src="imagenes/logo.png" alt="New Pool Logo Vector" class="nav-logo-img">
+                <h2 class="brand-name">New Pool®</h2>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#contacto" class="btn-contacto-nav">Solicitar Presupuesto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Hacemos realidad tu espacio de relax.</h1>
+            <p>Más de 10 años de trayectoria comprobable construyendo piletas de categoría.</p>
+            <a href="#galeria" class="btn-secondary">Ver Nuestr os Proyectos</a>
+        </div>
+    </section>
+
+    <section id="galeria" class="gallery container">
+        <h2 class="section-title">Galería de Proyectos</h2>
+        
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="imagenes/galeria_1.jpg" alt="Proyecto Residencial Nordelta">
+                <div class="gallery-info">
+                    <h3>Residencial Moderna</h3>
+                    <p>Nordelta</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="imagenes/galeria_2.jpg" alt="Proyecto con Deck Integrado">
+                <div class="gallery-info">
+                    <h3>Diseño Integral</h3>
+                    <p>Santa Bárbara</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="imagenes/galeria_3.jpg" alt="Pileta Estilo Minimalista">
+                <div class="gallery-info">
+                    <h3>Estilo Minimalista</h3>
+                    <p>Escobar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="why-us">
+        <div class="container">
+            <h2 class="section-title">¿Por qué elegirnos?</h2>
+            
+            <div class="icon-grid">
+                <div class="icon-card">
+                    <h3>Diseño Exclusivo</h3>
+                    <p>Piletas únicas, pensadas para integrarse armoniosamente con la arquitectura de tu hogar y tu estilo de vida.</p>
+                </div>
+                <div class="icon-card">
+                    <h3>Materiales de Excelencia</h3>
+                    <p>Utilizamos insumos y revestimientos de primera calidad para garantizar un acabado impecable y duradero.</p>
+                </div>
+                <div class="icon-card">
+                    <h3>Plazos Garantizados</h3>
+                    <p>Cumplimos estrictamente con los tiempos de obra pactados, para que disfrutes tu pileta cuando lo planeaste.</p>
+                </div>
+                <div class="icon-card">
+                    <h3>Trayectoria Impecable</h3>
+                    <p>Años de experiencia y cientos de clientes satisfechos respaldan cada uno de nuestros proyectos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials container">
+        <h2 class="section-title">Casos de Éxito</h2>
+        <p class="section-subtitle">Lo que dicen nuestros clientes sobre nuestro trabajo.</p>
+        
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="quote">"Los contacté para la construcción de mi pileta y quedé sorprendida no sólo por el trabajo sino por la atención. Gustavo un genio. Lo recomiendo ampliamente"</p>
+                <div class="client-info">
+                    <strong>Mara Ruberto</strong>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="quote">"Muy buenos trabajos. Increible atencion del trabajo y super responsables. Sigue estando igual de buena que el dia 1 y ya cuenta con varios años.   "</p>
+                <div class="client-info">
+                    <strong>Daniel Marcelo Quevedo</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <h2 class="section-title white-text">Solicitar Presupuesto</h2>
+            <p class="section-subtitle white-text">Completá el formulario y nos contactaremos para asesorarte sin cargo.</p>
+            
+            <form class="contact-form">
+                <div class="form-group-row">
+                    <input type="text" placeholder="Nombre y Apellido" required>
+                    <input type="email" placeholder="Correo Electrónico" required>
+                </div>
+                <div class="form-group-row">
+                    <input type="tel" placeholder="Teléfono" required>
+                    <input type="text" placeholder="Localidad/Barrio">
+                </div>
+                
+                <select required>
+                    <option value="" disabled selected>Tipo de Proyecto</option>
+                    <option value="nueva">Construcción de Pileta Nueva</option>
+                    <option value="reciclado">Reciclado / Remodelación</option>
+                    <option value="mantenimiento">Mantenimiento</option>
+                </select>
+                
+                <textarea placeholder="Mensaje / Detalles adicionales" rows="5"></textarea>
+                
+                <button type="submit" class="btn-primary-form">ENVIAR SOLICITUD</button>
